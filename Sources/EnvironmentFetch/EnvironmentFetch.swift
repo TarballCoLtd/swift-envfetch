@@ -208,17 +208,17 @@ public extension swiftenv {
 
 public struct SystemDisplay {
     
-    let width: UInt16
-    let height: UInt16
-    let refreshRate: UInt16?
-    let index: Int
+    public let width: UInt16
+    public let height: UInt16
+    public let refreshRate: UInt16?
+    public let index: Int
     
 }
 
 public struct SystemGPU {
     
-    let name: String
-    let integrated: Bool
+    public let name: String
+    public let integrated: Bool
     
 }
 
